@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Raleway:wght@300&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #1d1d1d;
+  --foreground: #e88809;
+}
+.background-image {
+  background-image: url(
+'../../public/bl_land_backgr.png');
+background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-Raleway: "Raleway", sans-serif;
+  --font-family: "Oxygen", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif, Chiller
+}
