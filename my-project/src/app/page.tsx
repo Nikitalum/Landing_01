@@ -8,7 +8,7 @@ export default function Home() {
     
       <main className="flex flex-col gap-[32px] row-center-2 items-center sm:items-center">
         <h1 className="text-6xl font-extralight font-Oxygen">РАМЕЙКОВ ИЛЬЯ ВАЛЕРЬЕВИЧ</h1>
-        <div className="flex flex-col space-y-4 place-items-left ml-162 my-20 text-3xl font-extralight">
+        <div className="flex flex-col space-y-4 place-items-left ml-152 my-20 text-3xl font-extralight">
           <div className="font-Raleway">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
 МОНТАЖ, СЪЁМКА ВИДЕО</div>
           <div className="font-Raleway">ПРОДВИЖЕНИЕ
