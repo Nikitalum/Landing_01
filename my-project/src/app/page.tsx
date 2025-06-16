@@ -3,25 +3,25 @@ import Image from "next/image";
 export default function Home() {
   return (
   
-  <div className="grid grid-rows-[20px_1fr_20px] items-start justify-items-center min-h-screen p-2 pb-20 gap-2 sm:p-12 font-[family-name:var(--font-geist-sans)]">
+  <div className="grid grid-rows-[20px_1fr_20px] mx-auto items-start justify-items-center min-h-screen p-2 pb-20 gap-2 sm:p-12 font-[family-name:var(--font-geist-sans)]">
     <div className="flex items-center absolute">
-      <main className="flex flex-col gap-[32px] row-center-2 items-center sm:items-center">
+      <main className="flex flex-col gap-[32px] mx-auto row-center-2 items-center sm:items-center">
         <h1 className="text-6xl font-extralight font-Oxygen">РАМЕЙКОВ ИЛЬЯ ВАЛЕРЬЕВИЧ</h1>
-        <div className="columns-sm text-3xl">
-            <div className=""><Image className="object-fill"
+        <div className="md:container md:mx-auto flex-row columns-sm text-3xl">
+            <div className=""><Image
             aria-hidden
             src="/bl_land_bg_2.png"
             alt="File icon"
             width={576}
             height={997}
           /></div>
-          <div className="flex-col space-y-4">
-          <div className="font-Raleway">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
+          <div className=" flex-col space-y-4">
+          <div className="font-Raleway font-extralight">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
 МОНТАЖ, СЪЁМКА ВИДЕО</div>
-          <div className="font-Raleway">ПРОДВИЖЕНИЕ
+          <div className="font-Raleway font-extralight">ПРОДВИЖЕНИЕ
 СТОМАТОЛОГОВ
 И ЗУБНЫХ ТЕХНИКОВ</div>
-          <div className="font-Raleway">РАЗВИЛ ИНСТАГРАМ
+          <div className="font-Raleway font-extralight">РАЗВИЛ ИНСТАГРАМ
 С НУЛЯ ДО 215.000 АУДИТОРИИ</div>
         </div>
         <div className="flex gap-4 items-center my-12 flex-col ml-12 sm:flex-row">
