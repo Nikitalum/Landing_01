@@ -10,8 +10,8 @@ export default function Home() {
         <div className="md:container md:mx-auto flex-row columns-sm text-3xl">
             <div className=""><Image
             aria-hidden
-            src="/bl_land_bg.svg"
-            alt="File icon"
+            src="../../public/bl_land_bg.svg"
+            alt="Producer"
             width={576}
             height={997}
           /></div>
