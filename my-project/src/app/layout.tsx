@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Продюсироавние инстаграм",
+  title: "Продюсирование инстаграм",
   description: "Лендинг продюсера Ильи Рамейкова",
 };
 
