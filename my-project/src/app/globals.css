@@ -7,8 +7,7 @@
   --foreground: #e88809;
 }
 .background-image {
-  background-image: url(
-'../../public/bl_land_backgr.png');
+
 background-size: cover;
   background-position: center;
   height: 100vh;
