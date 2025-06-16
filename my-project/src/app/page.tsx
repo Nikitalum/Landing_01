@@ -10,10 +10,10 @@ export default function Home() {
         <div className="columns-sm text-3xl">
             <div className=""><Image className="object-fill"
             aria-hidden
-            src="/bl_land_bg.png"
+            src="/bl_land_bg_2.png"
             alt="File icon"
-            width={600}
-            height={900}
+            width={576}
+            height={997}
           /></div>
           <div className="flex-col space-y-4">
           <div className="font-Raleway">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
