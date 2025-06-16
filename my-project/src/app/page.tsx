@@ -16,12 +16,12 @@ export default function Home() {
             height={997}
           /></div>
           <div className=" flex-col space-y-4">
-          <div className="font-Raleway font-extralight">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
+          <div className="font-extralight font-Raleway ">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
 МОНТАЖ, СЪЁМКА ВИДЕО</div>
-          <div className="font-Raleway font-extralight">ПРОДВИЖЕНИЕ
+          <div className="font-extralight font-Raleway">ПРОДВИЖЕНИЕ
 СТОМАТОЛОГОВ
 И ЗУБНЫХ ТЕХНИКОВ</div>
-          <div className="font-Raleway font-extralight">РАЗВИЛ ИНСТАГРАМ
+          <div className="font-extralight font-Raleway">РАЗВИЛ ИНСТАГРАМ
 С НУЛЯ ДО 215.000 АУДИТОРИИ</div>
         </div>
         <div className="flex gap-4 items-center my-12 flex-col ml-12 sm:flex-row">
