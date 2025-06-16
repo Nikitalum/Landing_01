@@ -10,7 +10,7 @@ export default function Home() {
         <div className="md:container md:mx-auto flex-row columns-sm text-3xl">
             <div className=""><Image
             aria-hidden
-            src="../../public/bl_land_bg.svg"
+            src="../public/bl_land_bg.svg"
             alt="Producer"
             width={576}
             height={997}
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="flex gap-4 items-center my-12 flex-col ml-12 sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background text-sm gap-2 hover:bg-[#f5e4dd] dark:hover:bg-[#ccc] font-Raleway  sm:text-xl h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://uslugi.yandex.ru/profile/IlyaRamejkov-3035849"
             target="_blank"
             rel="noopener noreferrer"
           >
