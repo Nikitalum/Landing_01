@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-6xl font-extralight font-Oxygen">РАМЕЙКОВ ИЛЬЯ ВАЛЕРЬЕВИЧ</h1>
         <div className="md:container md:mx-auto flex-row columns-sm text-3xl">
             <div><Image
-            src="/bl_land_bg.svg"
+            src="bl_land_bg.svg"
             alt="Producer"
             width={576}
             height={997}
