@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,11 +7,9 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] mx-auto row-center-2 items-center sm:items-center">
         <h1 className="text-6xl font-extralight font-Oxygen">РАМЕЙКОВ ИЛЬЯ ВАЛЕРЬЕВИЧ</h1>
         <div className="md:container md:mx-auto flex-row columns-sm text-3xl">
-            <div><Image
-            src="bl_land_bg.svg"
+            <div><img
+            src="\bl_land_bg.svg"
             alt="Producer"
-            width={576}
-            height={997}
           /></div>
           <div className=" flex-col space-y-4">
           <div className="font-extralight font-Raleway ">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
