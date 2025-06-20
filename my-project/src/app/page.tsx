@@ -12,7 +12,7 @@ export default function Home() {
             alt="Producer"
           /></div>
           <div className="md:h-12"></div>
-          <div className="flex-col space-y-4 my-4 md:w-160">
+          <div className="flex-col space-y-4 my-4 md:w-160 text-right">
           <div className="font-extralight font-Raleway">ПРОДЮСИРОВАНИЕ ИНСТАГРАМ
 МОНТАЖ, СЪЁМКА ВИДЕО</div>
           <div className="font-extralight font-Raleway">ПРОДВИЖЕНИЕ
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="flex gap-4 items-center my-6 md:my-12 flex-col md:ml-12 sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background text-sm gap-2 hover:bg-[#f5e4dd] dark:hover:bg-[#ccc] font-Raleway  sm:text-xl h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background text-sm gap-2 hover:bg-[#eabaa6] dark:hover:bg-[#ccc] font-Raleway  sm:text-xl h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
             href="https://uslugi.yandex.ru/profile/IlyaRamejkov-3035849"
             target="_blank"
             rel="noopener noreferrer"
